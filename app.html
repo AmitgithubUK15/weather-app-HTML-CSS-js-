@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+
+</head>
+<body>
+    <div id="root">
+       <div id="contenor">
+         <header>
+             <h1>
+                <Span>Weather App</Span>
+             </h1>
+             <form>
+                <input type="text" id="inpubox" placeholder="Search...">
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" id='button' width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+             </form>
+         </header>
+         <div id="page">
+            <div id="iconsdiv" style="padding: 0 88px;">
+                <img src="23793-9-weather-photos.png" alt="" style="margin: 0 auto;" width="280" height="248" id="weatherimg">
+            </div>
+         <div id="title">
+            <h1>
+                <span>Search Your city Weather</span>
+            </h1>
+         </div>
+        <div id="fortemep" style="padding: 9px 13px;">
+            <i class="fa-solid fa-location-dot" style="color: #fcfdfe; display: none;" id="locationid"></i>
+            <i class="fa-solid fa-droplet" style="color: #f4f7fb; display: none;" id="dropicon"></i>
+            <i class="fa-solid fa-cloud" style="color: #edf1f8; display: none;" id="feellike"></i>
+            <i class="fa-solid fa-wind" style="color: #eff3fa;display: none;" id="wind"></i>
+        </div>
+         </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

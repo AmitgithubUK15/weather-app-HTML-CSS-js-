@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color:  white;
+    
+}
+
+#root{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35 37 43);
+}
+
+#contenor{
+    width: 455px;
+    /* border: 1px solid black; */
+    height: 70vh;
+    background-color: rgb(15 23 42);
+    border-radius: 10px;
+    height: 530px;
+    min-width: 350px;
+}
+
+#contenor header{
+    width: 95%;
+    height: fit-content;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contenor header h1{
+    font-size: 23px;
+    padding: 5px 0;
+}
+
+#contenor form{
+    display: flex;
+    background-color: rgb(216, 229, 250);
+    padding: 13px 7px;
+    border-radius: 6px;
+
+}
+
+#contenor form input{
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+   padding: 0 5px;
+   color: rgb(15 23 42);
+   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+
+#contenor form svg{
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#title{
+    padding: 0 91px;
+}
+#title h1{
+    font-size: 23px;
+    padding: 5px 0;
+    margin: 0 auto;
+    width: 500px;
+}
